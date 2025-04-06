@@ -1,0 +1,33 @@
+1) Variable
+Variable acts as container space to store any data.
+It helps us to assign a memory location to a value which can be called whenever we want that value.
+Variables can only start with letters and underscore.
+Numbers can be added but not first.
+Special Characters are not allowed.
+Variable name should be given in such way that you understand.
+Value assing using assignment operate (=)
+
+
+
+2) Comments
+Comments are those lines in code which we don't want to exicute.
+They are use only for understanding purpose.
+
+Two types of comments
+i) Single line comments , syntax = #
+ii) Multiline comments, syntax = ''' <comment> '''    tripple quote
+
+
+
+3) Data Types
+Data types define what kind of value a variable can hold in a programming language.
+
+Type   	    Example	        Description
+int	        10, -5	        Integer (whole numbers)
+float	      3.14, -0.5	    Decimal numbers (floating point)
+str	        "hello"	        String (text)
+bool	      True, False	    Boolean (True or False)
+list	      [1, 2, 3]	      Ordered collection (can change)
+tuple	      (1, 2, 3)	      Ordered collection (cannot change)
+dict	      {"a": 1}	      Key-value pairs (like a map)
+set	        {1, 2, 3}	      Unordered collection of unique items
