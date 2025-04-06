@@ -1,0 +1,63 @@
+String
+
+1) Trimming
+
+strip() # leading & tailing character remove by default space
+lstrip() # Leading / left side character removed bydefault space
+rstrip() # tailing / right side character removed bydefault space
+# we have to specify character which we want to remove inside '' single quote
+
+e.g 
+text1 = '      hello     '
+text2= '$$$$$$hello$$$$$'
+print(text1.strip())
+print(text2.strip('$'))
+hello
+hello
+
+
+
+2) Splitting and Joining
+
+split() # using this function we split the text into list
+e.g
+email='ro@gmail.com'
+print(email.split('@'))
+['ro', 'gmail.com']
+e.g
+products='milk,bread,jam'
+print(products.split(','))
+['milk', 'bread', 'jam']
+
+join() # Joins element of an iterable with the string as a seprator
+e.g
+#simple concatenation
+s1='python'
+s2='session'
+print(s1+s2)
+'pythonsession'
+e.g
+#using join
+print('-'.join([s1,s2]) )  #join takes only one argument so we provide as a list . here we join using -
+'python-session'
+e.g
+'''The join() method in Python inserts the calling string (s1 = 'python') between each character of the given iterable 
+(s2 = 'session').
+So, 'python'.join('session') means that the string 'python' is inserted between each letter of 'session'.'''
+print(s1.join(s2))
+'spythonepythonspythonspythonipythonopythonn'
+
+
+
+3) Formatting
+formate = Formats the string using placeholder
+f-strings(f"{var}" - faster and more redable string formatting
+A format string is a string that includes placeholders to insert values dynamically — like variables, numbers, or other data — into the string.
+e.g
+name='Sanika'
+age=23
+course='DS'
+print(f'{name} is {age} years old and takes {course} course and fee is {2333+1233}') #we also add mathematics here
+Sanika is 23 years old and takes DS course and fee is 3566
+
+
