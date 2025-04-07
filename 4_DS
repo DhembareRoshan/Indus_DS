@@ -1,0 +1,58 @@
+Data Structure
+  Data Stucture acts as container to store multiple values in one variable
+  We perform Data Manupulation in Data Structure like add, delete, replace/update 
+
+*** Note :- argument is an input for we use for that function
+
+Two types of Data Structure
+ 1) Homogenous Data Structure (Same) all values inside data stucture are with same datatype
+ 2) Heterogenous Data Structure (Different)
+
+ Homogenous DS
+    - Array (mutable)
+Heterogenous DS
+ 1) Mutable (perform changes)
+    -list (built-in method)
+    -dictionary (built-in method)
+    -DataFrame (Table)
+ 2) Immutable (not allowed to perform changes)
+    -Tuple (built-in method)
+    -set (built-in method)
+
+Note :- Array and DataFrame not built-in we need external library for use
+
+
+1) LIST
+  LIST : []
+  Ordered             -> Elements are stored in a specific sequence, and indexing follow the order.
+  Mutable             -> Lists can be modified (Elemtns can be added, removed, or changed).
+  Heterogenous        -> A list can store different data types(integers,string,floats,etc.).
+  Indexted            -> Elements can be accedde using zero-based indexing and negative indexing.
+  Allows Duplicates   -> Lists can contain duplicaate values.
+  Dynamic Size        -> The size of a list dan grow or shrink dynamically based on operations
+
+  * Adding value in list
+    - append(value)
+      add value at end of the list
+    - extend()
+      add value at last but if we provide list add value seprate not entire list in last...if we give string each char store sepratly not entire string
+    - insert(idx,value)
+      add value at specified position
+
+  *** index(value)   -> find index of that perticular value
+      e.g
+        # find index position
+        lst1.index('python') # if find positin of that value
+
+  * Remove values from list
+    - pop(idx) 
+      it return value what we delete
+      if idx not specified it consider last index
+    - remove(value)
+      using value we removed that from list
+    - clear()
+      remove all element from list
+      NOTE -> only one element remove or pop at a time...the first apperace will remove
+  
+  
+  
