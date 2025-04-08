@@ -1,0 +1,17 @@
+TUPLE : ()
+Ordered             -> Elements are stored in a specific sequence, and indexing follow the order.
+Immutable           -> Tuples cannot be modified after cration(no adding, removing or changing value).
+Heterogenous        -> A Tuples can store different data types(integers,string,floats,etc.).
+Indexted            -> Elements can be accedde using zero-based indexing and negative indexing.
+Allows Duplicates   -> Tuples can contain duplicaate values.
+Fixed Size          -> Once created, the tuple's size remains constant (because of immutable )
+
+DICTIONARY : {key : value}
+Ordered                        -> Elements are stored in a specific sequence.
+key-value pairs                -> Store data as {key:value}pairs.
+Key Must be Unique & Immutable -> keys must be unique and  immutable types(e.g, string number or tuples with immutalbe elements) it means we use tuple also as key.
+Values can we any type         -> values can be of any data type including lists and othere dictionary, etc
+Mutable                        -> Dictionary can be modified (Elemtns can be added, removed, or changed).
+Heterogenous                   -> A Dictionary can store different data types(integers,string,floats,etc.).
+Elements Access by keys        -> Elements only access using keys.
+Does not allow Duplicate Keys  -> Lists can not contain duplicate values.
