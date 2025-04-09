@@ -1,0 +1,10 @@
+SET : {}
+Unordered                              :- Elements in a set do not have a fixed order.
+Unindexed                              :- Elemnts cannot be accessed using an index like lists or tuples.
+Mutable(but Elemnts Must Be Immutable) :- You can add or remove elemnts, but individual elements must be of immutable types (e.g, numbers, strings, tuples with immutable elemts).
+No Duplicated Allowed                  :- Automatically removes duplicate element
+Dynamic Size                           :- Can grow or shirng dynamically based on operations.
+Heterogenous Data Sturcture            :- You add differnt data types / data structure..but only those are immutable
+
+Typecasting
+A method of changing data type or data structure of any variable
